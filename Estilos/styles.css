@@ -1,0 +1,55 @@
+.contenedor {
+  background-color: #ECB365;
+  border: solid 10px #041C32 ;
+  max-width: 500px;
+  max-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; 
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border-radius: 100px;
+  color: #041C32;
+}
+
+body {
+  background-color: #04293A;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.palindromo-in {
+  text-align: center;
+  border-radius: 20px;
+  border-style: solid;
+  height: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+label , p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+}
+.boton {
+  border-radius: 10px;
+  background-color: #ECB365;
+  color:#041C32;
+  height: 3rem;
+  width: 4rem;
+  margin-top: 1rem;
+}
+
+.boton:hover {
+  border-radius: 10px;
+  background-color: #041C32;
+  color:#ECB365;
+  height: 3rem;
+  width: 4rem;
+}
+
